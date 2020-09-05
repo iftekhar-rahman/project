@@ -1,21 +1,26 @@
 /* Base CSS */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i');
 .alignleft {
-    float: left;
-    margin-right: 15px;
+	float: left;
+	margin-right: 15px;
 }
 .alignright {
-    float: right;
-    margin-left: 15px;
+	float: right;
+	margin-left: 15px;
 }
 .aligncenter {
-    display: block;
-    margin: 0 auto 15px;
+	display: block;
+	margin: 0 auto 15px;
 }
-a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	outline: 0 solid;
+}
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 h1,
 h2,
@@ -23,16 +28,18 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 15px;
-    font-weight: 600;
+	margin: 0 0 15px;
+	font-weight: 600;
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #131013;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #131013;
 }
-a:hover { text-decoration: none }
+a:hover {
+	text-decoration: none;
+}
 
 /* input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
     
@@ -117,59 +124,58 @@ select {
     border: 0;
     padding: 8px 10px;
 } */
-select {outline: none }
-
-
-
-ul{
-    margin: 0;
-    padding: 0;
+select {
+	outline: none;
 }
-a{ 
-    color: #ffffff;
+
+ul {
+	margin: 0;
+	padding: 0;
 }
-.site-container{
-    max-width: 767px;
-    padding: 0 10px;
-    margin: 0 auto;
+a {
+	color: #ffffff;
+}
+.site-container {
+	max-width: 767px;
+	padding: 0 10px;
+	margin: 0 auto;
 }
 
 .site-logo img {
-    max-width: 150px;
-    margin: 0 auto;
-    display: block;
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
 }
 
 .home-content {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 .boxes-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: -5px;
-    /* justify-content: center; */
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -5px;
+	margin-left: -5px;
+	/* justify-content: center; */
 }
 
 .single-box {
-    flex-basis: 30.555%;
-    height: 100px;
-    background: #292929;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    position: relative;
+	flex-basis: 30.555%;
+	height: 100px;
+	background: #292929;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	position: relative;
 }
 
 .site-logo {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
-
 .site-footer {
-    background: #292929;
-    padding: 30px 0 40px;
+	background: #292929;
+	padding: 30px 0 40px;
 }
 
 /* .single-footer-item {
@@ -178,57 +184,54 @@ a{
     height: 70px;
 } */
 
-.footer-menu ul{
-    display: flex;
-    height: 70px;
+.footer-menu ul {
+	display: flex;
+	height: 70px;
 }
-.footer-menu ul li{
-    display: inline-block;
-    text-align: center;
-    flex-basis: 33.3333%;
+.footer-menu ul li {
+	display: inline-block;
+	text-align: center;
+	flex-basis: 33.3333%;
 }
 .footer-menu a {
-    color: #fff;
-    display: inline-block;
+	color: #fff;
+	display: inline-block;
 }
 .footer-menu img {
-    max-width: 40px;
-    margin-bottom: 10px;
+	max-width: 40px;
+	margin-bottom: 10px;
 }
-
 
 .avatar-upload {
-    position: relative;
-    
+	position: relative;
 }
 .avatar-edit {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /* background: red; */
-    
+	position: absolute;
+	right: 0;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: red; */
 }
 input {
-    display: none;
+	display: none;
 }
 input + label {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    /* background: #FFFFFF; */
-    cursor: pointer;
-    font-weight: normal;
-    transition: all .2s ease-in-out;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	/* background: #FFFFFF; */
+	cursor: pointer;
+	font-weight: normal;
+	transition: all 0.2s ease-in-out;
 }
 input + label:hover {
-    /* background: #f1f1f1;
+	/* background: #f1f1f1;
     border-color: #d6d6d6; */
 }
 input + label:after {
-    /* content: "\f040";
+	/* content: "\f040";
     font-family: 'FontAwesome';
     color: #757575;
     position: absolute;
@@ -239,16 +242,16 @@ input + label:after {
     margin: auto; */
 }
 .avatar-preview {
-    width: 100%;
-    height: 100px;
-    position: relative;
+	width: 100%;
+	height: 100px;
+	position: relative;
 }
-.avatar-preview >  div {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-color: #292929;
+.avatar-preview > div {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #292929;
 }
 
 /* .rmv {
@@ -261,58 +264,67 @@ input + label:after {
     margin: -5px -10px;
 } */
 
-
 /* .it {
     height: 150px;
     margin-left: 10px;
   } */
-  .btn-rmv1,
-  .btn-rmv2,
-  .btn-rmv3,
-  .btn-rmv4,
-  .btn-rmv5 {
-    display: none;
-  }
+.btn-rmv1,
+.btn-rmv2,
+.btn-rmv3,
+.btn-rmv4,
+.btn-rmv5 {
+	display: none;
+}
 .rmv {
-  cursor: pointer;
-  color: #fff;
-  border-radius: 30px;
-  border: 1px solid #fff;
-  display: block;
-  background: rgba(255, 0, 0, 1);
-  margin: -5px -10px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 30px;
+	border: 1px solid #fff;
+	display: block;
+	background: rgba(255, 0, 0, 1);
+	margin: -5px -10px;
 }
 
 .rmv:hover {
-  background: rgba(255, 0, 0, 0.5);
+	background: rgba(255, 0, 0, 0.5);
 }
 
+.uploadpreview {
+	width: 100%;
+	height: 100px;
+	display: block;
+	border: 1px solid #ccc;
+	/* margin:0 auto 15px; */
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
-.uploadpreview{
-    width:100%;
-    height:100px;
-    display:block;
-    border:1px solid #ccc;
-    /* margin:0 auto 15px; */
-    background-size:100% auto;
-    background-repeat:no-repeat;
-    background-position:center;
-  }
-  
-  /* .upload-wrap{
-    float:left;
-    width:200px;
-  } */
-  
-  input[type="file"] {
-      /* color: transparent; */
-      width: 100%;
-      margin: 0 auto;
-      display: block;
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-  }
+.upload-wrap {
+	/* float:left;
+    width:200px; */
+	position: relative;
+}
+
+input[type='file'] {
+	/* color: transparent; */
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.close-btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
